@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blod1">
+
+    <LinearLayout
+        android:layout_width="425dp"
+        android:layout_height="91dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="0dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="424dp"
+            android:layout_height="wrap_content"
+            android:text="ALL BLOGS"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="406dp"
+        android:layout_height="94dp"
+        android:layout_marginBottom="116dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintStart_toStartOf="parent"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="122dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="ALL AVAILABLE CATEGORY "
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

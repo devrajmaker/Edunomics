@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Edunomics</string>
+    <string name="action_setting">settings</string>
+    <string name="searchk">How to get a Career? </string>
+    <string name="career">CAREER</string>
+    <string name="skill">SKILL</string>
+</resources>
